@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 500px;
+  padding: 100px;
+  margin: auto;
+  margin-top: 120px;
+}
+.buttonBox {
+  text-align: center;
+}
+button {
+  border: 1px solid red;
+  border-radius: 10px;
+  margin: 10px 20px;
+  padding: 5px 50px;
+  width: 150px;
+  height: 45px;
+}
+h1 {
+  font-size: 50px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  margin-bottom: 30px;
+  border-bottom: 1px solid black;
+  padding-bottom: 15px;
+}
+button {
+  font-size: 20px;
+  background-color: rgba(47, 79, 79, 1);
+  color: white;
+  box-shadow: 2px 4px 8px 4px rgba(29, 29, 87, 0.6);
+  transition: 0.8s all;
+}
+button:active {
+  box-shadow: 2px 4px 8px 4px rgba(127, 127, 248, 0.4);
+  transform: scale(0.95);
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(47, 79, 79, 0.5);
+}
+h1,
+p {
+  text-align: center;
+}
